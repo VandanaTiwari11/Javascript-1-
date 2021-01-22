@@ -1,0 +1,31 @@
+.Navbar{
+    position: fixed;    
+}
+
+
+.topnav-right {
+    float: right;
+    margin-left: 450px;
+   
+   
+  }
+  .topnav  a{
+   float: left;
+    color: #05011d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color:white;
+  }
+ .topnav{
+     margin-top: 30px;
+     
+ }
+  #navbarimg {
+      display: inline;
+  }
+.topnav a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 218, 9);
+}

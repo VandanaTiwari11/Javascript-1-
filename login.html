@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <style>
+    .required-field::after {
+      content: "*";
+      color: red;
+    }
+  </style>
+  <script src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/Program/Login.js"></script>
+ </head>
+
+<body style="background-color: #f2f2f2">
+
+  <form style="margin-top: 5%;" id="GetForm">
+    <div class="container" style="text-align: center;">
+      <div style="display: inline-block;">
+        <img src="images/logo-1.png">
+        <h1 style="text-align: center;"> Member Login Form </h1>
+        <br>
+
+
+        <div class="form-group">
+          <label for="txtUserID" style="float:left" class="required-field">User ID: </label>
+          <input type="number" class="form-control" id="txtUserID" placeholder="Enter User ID" required>
+
+        </div>
+        <div class="form-group">
+          <label for="txtPassword" style="float:left" class="required-field">Password: </label>
+          <input type="password" class="form-control" placeholder="Enter your Password" Text="enter your Password"
+            id="txtPassword" required>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="#" style="margin-left:40%"> Forgot Password? </a> <br>
+      </div>
+    </div>
+  </form><br>
+  <br>
+  <br>
+  <footer>
+    <p style="text-align: center;">Beedu Services Pvt Ltd</p>
+    <p style="text-align: center;">Contact Us: <a href="support@beedu.in">
+        support@beedu.in</a>.</p>
+  </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+    integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
